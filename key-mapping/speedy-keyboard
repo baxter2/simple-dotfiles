@@ -1,0 +1,9 @@
+#!/bin/sh
+
+echo "Setting keyboard to optimal SPEED"
+
+defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
+defaults write NSGlobalDomain KeyRepeat -int 1
+defaults write NSGlobalDomain InitialKeyRepeat -int 12s
+
+echo "Quit Terminal then Logout and Log back in and relaunch a new sesh."

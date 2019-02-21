@@ -1,0 +1,5 @@
+#!/bin/sh
+#https://dev.classmethod.jp/tool/remapping-keys-in-sierra/
+hidutil property --set '{"UserKeyMapping":
+    [ ]
+}'
