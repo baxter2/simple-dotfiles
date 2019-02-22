@@ -13,3 +13,6 @@ set clipboard=unnamed
 
 
 colorscheme Tomorrow-Night
+
+" https://github.com/tpope/vim-markdown
+let g:markdown_fenced_languages = ['html', 'python', 'ruby', 'bash=sh']
